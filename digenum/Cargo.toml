@@ -2,6 +2,13 @@
 name = "digenum"
 version = "0.1.0"
 edition = "2021"
+description = "An enum variant extractor"
+repository = "https://github.com/Defmc/digenum"
+license = "MIT"
+readme = "README.md"
+keywords = ["macro", "derive", "macros"]
+categories = ["rust-patterns"]
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

@@ -17,6 +17,7 @@ enum Login<T: Read> {
 
 Maps to:
 | Variant | Reference | Mutable Reference | Owned |
+| ------- | --------- | ----------------- | ----- |
 | `Local` | None | None | None |
 | `Stream(T)` | `as_Stream -> Option<&T>` | `as_mut_Stream -> Option<&mut T>` | `into_Stream -> Option<T>` |
 | `Token([u8; 64])` | `as_Token -> Option<&[u8; 64]>` | `as_mut_Token -> Option<&mut [u8; 64]>` | `into_Token -> Option<[u8; 64]>` |

@@ -84,6 +84,3 @@ fn gen_fns(v: &Variant) -> TokenStream2 {
         }
     }
 }
-
-#[cfg(test)]
-pub mod test;

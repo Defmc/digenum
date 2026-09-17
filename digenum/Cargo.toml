@@ -15,7 +15,7 @@ categories = ["rust-patterns"]
 [dependencies]
 proc-macro2 = "1.0.67"
 quote = "1.0.33"
-syn = { version = "2.0.37", features = ["full"] }
+syn = { version = "3.0.0", features = ["full"] }
 
 [lib]
 proc-macro = true
